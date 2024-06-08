@@ -1,0 +1,122 @@
+/* Default styles */
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .Heading{
+    background-color: #272525;
+    font-size: 4rem;
+  }
+  
+  .clock {
+    font-size: 4rem;
+    background-color: #a200ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-unit .number {
+    font-size: 4rem; 
+  }
+  
+  .label {
+    font-size: 1.2rem; 
+    color: #bbb;
+    margin-top: 10px;
+  }
+  
+  .colon {
+    font-size: 4rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 1200px) {
+    /* Large screens */
+    .clock {
+      /* font-size: 3rem; */
+      background-color: #003cff;
+  
+    }
+    .time-unit .number {
+      font-size: 3rem;
+    }
+  
+    .label {
+      font-size: 1rem;
+    }
+  
+    .colon {
+      font-size: 3rem;
+     
+  
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    /* Normal computers */
+    /* Adjust styles if needed */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Tablets and large-screen mobile */
+    .clock {
+      /* font-size: 4.5rem !important; */
+      background-color: #272525;  
+    }
+    .time-unit .number {
+      font-size: 2.5rem;
+    }
+  
+    .label {
+      font-size: .8rem;
+    }
+  
+    .colon {
+      font-size: 2.5rem;
+     
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    /* Small-screen mobile */
+    .clock {
+      font-size: 2rem;
+      background-color: #ff0000;
+      }
+      
+      .time-unit .number {
+        font-size: 2rem;
+    }
+    
+    .label {
+      font-size: .1rem;
+    }
+    .colon {
+      font-size: 2rem;
+     
+    }
+  }
+  
